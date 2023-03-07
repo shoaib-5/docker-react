@@ -1,3 +1,17 @@
+Docker & Docker Compose
+
+For Dev Environment
+==============
+
+docker-compose -f docker-compose-dev.yml up
+docker-compose -f docker-compose-dev.yml up --build
+docker-compose -f docker-compose-dev.yml down
+
+
+For Production Environment
+==============
+docker-compose up --build // pickup docker-compose.yml
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
