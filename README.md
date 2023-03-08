@@ -1,16 +1,33 @@
-Docker & Docker Compose
+## Docker & Docker Compose Course Notes
 
-For Dev Environment
+# For Dev Environment
 ==============
 
 docker-compose -f docker-compose-dev.yml up
 docker-compose -f docker-compose-dev.yml up --build
 docker-compose -f docker-compose-dev.yml down
 
-
-For Production Environment
+# For Production Environment
 ==============
 docker-compose up --build // pickup docker-compose.yml
+
+
+# Learned Today (8th March 2023)
+===============================
+
+ElasticBeanStack
+S3Bucket 
+IAM Management
+ - Access Key and Secrect Key when creating user in AWS
+
+Secrets Added in Travis Enviroments
+
+Deployed into bucket in zip format
+
+# Learned Today (9th March 2023)
+==============================
+
+
 
 # Getting Started with Create React App
 
